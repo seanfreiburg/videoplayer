@@ -5,7 +5,7 @@
 	  <banner_ad sd_img="http://rokudev.roku.com/rokudev/examples/videoplayer/images/missing.png" hd_img="http://rokudev.roku.com/rokudev/examples/videoplayer/images/missing.png"/>
 	  
 	<category title="Falcons" description="TED Talks on Technology" sd_img="http://rokudev.roku.com/rokudev/examples/videoplayer/images/TED_Technology.png" hd_img="http://rokudev.roku.com/rokudev/examples/videoplayer/images/TED_Technology.png">
-		<categoryLeaf title="The Mind" description="" feed="http://pastebin.com/raw.php?i=NjDH0cyi"/>
+		<categoryLeaf title="The Mind" description="" feed="https://raw.githubusercontent.com/seanfreiburg/videoplayer/master/xml/themind.xml"/>
 		<categoryLeaf title="Global Issues" description="" feed="http://rokudev.roku.com/rokudev/examples/videoplayer/xml/globalissues.xml" />
 	</category>
 

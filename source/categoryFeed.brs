@@ -12,8 +12,8 @@ Function InitCategoryFeedConnection() As Object
 
     conn = CreateObject("roAssociativeArray")
 
-    conn.UrlPrefix   = "http://pastebin.com/raw.php?i="
-    conn.UrlCategoryFeed = conn.UrlPrefix + "MnEGT2f4"
+    conn.UrlPrefix   = "https://raw.githubusercontent.com/seanfreiburg/videoplayer/master/xml"
+    conn.UrlCategoryFeed = conn.UrlPrefix + "M/categories.xml"
 
     conn.Timer = CreateObject("roTimespan")
 
