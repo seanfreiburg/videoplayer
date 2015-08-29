@@ -13,7 +13,7 @@ Function InitCategoryFeedConnection() As Object
     conn = CreateObject("roAssociativeArray")
 
     conn.UrlPrefix   = "https://raw.githubusercontent.com/seanfreiburg/videoplayer/master/xml"
-    conn.UrlCategoryFeed = conn.UrlPrefix + "M/categories.xml"
+    conn.UrlCategoryFeed = conn.UrlPrefix + "/categories.xml"
 
     conn.Timer = CreateObject("roTimespan")
 
